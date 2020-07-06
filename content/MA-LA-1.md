@@ -6,3 +6,4 @@ author: "chychino"
 ---
 # 題
 用高斯-若爾當消元法解方程組:
+dde
