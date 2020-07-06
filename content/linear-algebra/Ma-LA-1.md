@@ -1,47 +1,39 @@
----
-author: Hugo Authors
-title: Math Typesetting
-date: 2019-03-08
-description: A brief guide to setup KaTeX
-math: true
----
++++
 
-Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
-<!--more-->
+author = "chychino"
 
-In this example we will be using [KaTeX](https://katex.org/)
+title = "Ma-LA-1"
 
-- Create a partial under `/layouts/partials/math.html`
-- Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
-- Include the partial in your templates like so:  
+date = "2020-07-06"
 
-```
-{{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
-{{ end }}
-```  
-- To enable KaTex globally set the parameter `math` to `true` in a project's configuration
-- To enable KaTex on a per page basis include the parameter `math: true` in content files.
+description = "出典自 Steven J.Leon 著 Linear Algebra with Applications (Ninth Edition) Page.16"
 
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
-{{< math.inline >}}
-{{ if or .Page.Params.math .Site.Params.math }}
-<!-- KaTeX -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-{{ end }}
-{{</ math.inline >}}
+tags = [
 
-### Examples
-{{< math.inline >}}
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
+"線性方程組",
 
-Block math:
+"初等行變換",
+
+"消元法",
+
+]
+
+categories = ["數學 Math", "線性代數 Linear algebra"]
+
+math = true
+
++++
+
+## 題
+
+用高斯-若爾當消元法解方程組:
+
 $$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
+\begin{aligned}
+-&x_1&&+&x_2&&-&&x_3&&+&&3x_4 &= 0 \\
+3&x_1&&+&x_2&&-&&x_3&&-&&x_4 &= 0 \\
+2&x_1&&-&x_2&&-&&2x_3&&-&&x_4 &= 0
+\end{aligned}
 $$
 
+## 解
