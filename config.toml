@@ -1,4 +1,4 @@
-baseURL = "http://mondaiya.github.io"
+baseURL = "https://mondaiya.github.io"
 languageCode = "zh"
 defaultContentLanguage = "zh"
 title = "問題屋"                         # site title  # 网站标题
