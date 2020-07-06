@@ -1,3 +1,6 @@
+---
+math: true
+---
 +++
 
 author = "chychino"
@@ -19,9 +22,6 @@ tags = [
 ]
 
 categories = ["數學 Math", "線性代數 Linear algebra"]
-
-math = true
-
 +++
 
 ## 題
