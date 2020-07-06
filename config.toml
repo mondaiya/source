@@ -1,5 +1,6 @@
 baseURL = "https://mondaiya.github.io/"
 title = "Mondaiya"
+theme = "HugoTex"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
