@@ -42,9 +42,9 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = "優雅的數位化習題集"                                       # site's subTitle  # 网站二级标题
-  footerSlogan = "問題屋へようこそ"                                   # site's footer slogan  # 网站页脚标语
-  keywords = ["Hugo","theme","zozo"]                                  # site's keywords  # 网站关键字
+  subTitle = "問題屋へようこそ"                                       # site's subTitle  # 网站二级标题
+  footerSlogan = "優雅的數位化習題集"                                   # site's footer slogan  # 网站页脚标语
+  keywords = ["習題","問題","題庫"]                                  # site's keywords  # 网站关键字
   enableMathJax = true                                                 # enable mathjax  # 是否使用mathjax（数学公式）
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
   mainSections = ["posts","post"]
@@ -53,10 +53,10 @@ pygmentscodefencesguesssyntax = true
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 [params.valine]
-  enable = false
+  enable = true
   appId = "oir2hhYBvwGlvC5yMR849hY7-MdYXbMMI"
   appKey = "7azYofyKNG3m68nrjpffQ9vd"
-  placeholder = " "
+# placeholder = " "
   visitor = true
 
 # Your socail's url
