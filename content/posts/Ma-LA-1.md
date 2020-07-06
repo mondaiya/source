@@ -7,7 +7,7 @@ description : 出典自 Steven J.Leon 著 Linear Algebra with Applications (Nint
 
 ## 題
 
-用高斯-若爾當消元法解方程組:
+用高斯-若爾當消元法解方程組 :
 $$
 \begin{alignat}{1}
 -&x_1&+&x_2&-&&x_3&+&3&x_4 &&= 0 \\\\
