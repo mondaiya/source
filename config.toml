@@ -11,6 +11,6 @@ footnoteReturnLinkContents = "^"
 abstract = "優雅的數位化習題集"
 
 [taxonomies]
-category = "目錄"
-tag = "標籤"
-series = "系列"
+category = "categories"
+tag = "tags"
+series = "series"
