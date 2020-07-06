@@ -1,6 +1,0 @@
-[submodule "themes/HugoTeX"]
-	path = themes/HugoTeX
-	url = https://github.com/7ma7X/HugoTeX
-[submodule "themes/zozo"]
-	path = themes/zozo
-	url = https://github.com/varkai/hugo-theme-zozo
