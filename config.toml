@@ -8,9 +8,9 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 [author]
-abstract = "I'm a software engineer and a coffee enthusiast in Japan. My primary interest lies in the area of natural language processing."
+abstract = "優雅的數位化習題集"
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+category = "目錄"
+tag = "標籤"
+series = "系列"
