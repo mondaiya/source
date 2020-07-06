@@ -1,16 +1,69 @@
-baseURL = "https://mondaiya.github.io/"
-title = "問題屋"
-theme = "HugoTeX"
-paginate = 3
-languageCode = "zh-TW"
-DefaultContentLanguage = "zh-TW"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
+baseURL = "http://mondaiya.github.io"
+languageCode = "zh"
+defaultContentLanguage = "zh"
+title = "問題屋"                         # site title  # 网站标题
+theme = "zozo"
+hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
+summaryLength = 100
+paginate = 4                           # shows the number of articles  # 首页显示文章数量
+enableEmoji = true
+googleAnalytics = ""                   # your google analytics id
+disqusShortname = ""                   # your discuss shortname
 
-[author]
-abstract = "優雅的數位化習題集"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+pygmentscodefencesguesssyntax = true
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+[author]                               # essential                     # 必需
+  name = "mondaiya"
+
+[blackfriday]
+  smartypants = false
+
+[[menu.main]]                          # config your menu  # 配置菜单
+  name = "主頁"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "歸檔"
+  weight = 20
+  identifier = "archive"
+  url = "/posts/"
+[[menu.main]]
+  name = "標籤"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "關於"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
+
+[params]
+  subTitle = "優雅的數位化習題集"                                       # site's subTitle  # 网站二级标题
+  footerSlogan = "問題屋へようこそ"                                   # site's footer slogan  # 网站页脚标语
+  keywords = ["Hugo","theme","zozo"]                                  # site's keywords  # 网站关键字
+  enableMathJax = true                                                 # enable mathjax  # 是否使用mathjax（数学公式）
+  enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
+  mainSections = ["posts","post"]
+  
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+  enable = false
+  appId = "oir2hhYBvwGlvC5yMR849hY7-MdYXbMMI"
+  appKey = "7azYofyKNG3m68nrjpffQ9vd"
+  placeholder = " "
+  visitor = true
+
+# Your socail's url
+[social]
+  github = "https://github.com/mondaiya/mondaiya.github.io"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
