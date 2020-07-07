@@ -31,7 +31,7 @@ $$
 > 2. 以非零實數乘以某行
 > 3. 將某行替換爲它與其他行倍數的和
 
-構造方程組的增廣矩陣 (augmented matrix) 如下
+構造方程組的**增廣矩陣 (augmented matrix)** 如下
 
 \begin{bmatrix}
   \begin{array}{rrrr|r}
@@ -41,7 +41,7 @@ $$
  \end{array}
  \end{bmatrix}
 
-使用初等行運算 III, 以首行 \\(\begin{bmatrix} \begin{array}{rrrr|r} -1 & 1 & -1 & 3 & 0 \end{array} \end{bmatrix}\\) 爲主行 (pivotal row) , 主行分別乘以 3 和 2 後分別加在第 2 和第 3 行上，以置 0 第二和第三行的首非 0 元.
+使用**初等行運算 III**, 以首行 \\(\begin{bmatrix} \begin{array}{rrrr|r} -1 & 1 & -1 & 3 & 0 \end{array} \end{bmatrix}\\) 爲**主行 (pivotal row)** , 主行分別乘以 3 和 2 後分別加在第 2 和第 3 行上，以置 0 第二和第三行的首非 0 元.
 
 \begin{bmatrix}
   \begin{array}{rrrr|r}
@@ -61,7 +61,7 @@ $$
  \end{array}
  \end{bmatrix}
 
-使用初等行運算 II, 零各行首變量歸一, 得到行階梯形: 
+使用**初等行運算 II**, 零各行首變量歸一, 得到**行階梯形**: 
 
 \begin{bmatrix}
   \begin{array}{rrrr|r}
@@ -102,7 +102,7 @@ $$
 > 1. 爲行階梯形.
 > 2. 每行的首非零元是該列唯一非零元.
 
-顯然的, \\(x_4\\) 爲自由變量 (free variable)，方程組的解集爲
+顯然的, \\(x_4\\) 爲**自由變量 (free variable)**，方程組的解集爲
 
 \begin{array}{rrr}
 x_1 &= &x_4 \\\\ 
