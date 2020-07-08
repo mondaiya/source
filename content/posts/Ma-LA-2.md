@@ -19,8 +19,6 @@ tags: ["數學", "線性代數"]
 
 的線性方程組.
 
-<!--more-->
-
 (a) 求出方程組的所有解.
 
 (‌b) 如果 \\(\boldsymbol a_1 = \begin{bmatrix} 1\\\\ 1\\\\ 3\\\\ 4 \end{bmatrix}\\), \\(\boldsymbol a_3 = \begin{bmatrix}\begin{array}{r} 2\\\\ -1\\\\ 1\\\\ 3 \end{array}\end{bmatrix}\\), 確定 \\(\boldsymbol b\\).

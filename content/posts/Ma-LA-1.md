@@ -6,14 +6,13 @@ description : 出典自 Steven J.Leon 著 Linear Algebra with Applications (Nint
 tags: ["數學", "線性代數"]
 ---
 用高斯-若爾當消元法解方程組 :
-$$
-\begin{alignat}{1}
+
+\begin{alignat*}{1}
 -&x_1&+&x_2&-&&x_3&+&3&x_4 &&= 0 \\\\
 3&x_1&+&x_2&-&&x_3&-&&x_4 &&= 0 \\\\
 2&x_1&-&x_2&-&2&x_3&-&&x_4 &&= 0
-\end{alignat} 
-$$
-<!--more-->
+\end{alignat*} 
+
 ---
 
 # 解
