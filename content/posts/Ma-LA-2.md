@@ -1,12 +1,12 @@
 ---
 author: chychino
-title : Ma-LA-2
+title : Ma LA 2
 date : 2020-07-07
 description : 出典自 Steven J.Leon 著 Linear Algebra with Applications (Ninth Edition) Page.16
 tags: ["數學", "線性代數"]
 ---
 
-設 \\(A\boldsymbol x = \boldsymbol b\\) 是增廣矩陣具有最簡形
+設 $A\boldsymbol x = \boldsymbol b$ 是增廣矩陣具有最簡形
 
 \begin{bmatrix}
  \begin{array}{rrrrr|r}
@@ -21,7 +21,7 @@ tags: ["數學", "線性代數"]
 
 (a) 求出方程組的所有解.
 
-(‌b) 如果 \\(\boldsymbol a_1 = \begin{bmatrix} 1\\\\ 1\\\\ 3\\\\ 4 \end{bmatrix}\\), \\(\boldsymbol a_3 = \begin{bmatrix}\begin{array}{r} 2\\\\ -1\\\\ 1\\\\ 3 \end{array}\end{bmatrix}\\), 確定 \\(\boldsymbol b\\).
+(‌b) 如果 $\boldsymbol a_1 = \begin{bmatrix} 1\\\\ 1\\\\ 3\\\\ 4 \end{bmatrix}$, $\boldsymbol a_3 = \begin{bmatrix}\begin{array}{r} 2\\\\ -1\\\\ 1\\\\ 3 \end{array}\end{bmatrix}$, 確定 $\boldsymbol b$.
 
 ---
 
@@ -47,8 +47,8 @@ tags: ["數學", "線性代數"]
     \end{cases}
 \end{align*}
 
-不妨設自由變量 \\(x_2, x_4, x_5\\) 分別爲 \\(r, s, t\\) .
-因此 \\(\boldsymbol x = \begin{bmatrix} -2r-3s-t-2\\\\ r\\\\ -2s-4t+5\\\\ s\\\\ t \end{bmatrix}\\)
+不妨設自由變量 $x_2, x_4, x_5$ 分別爲 $r, s, t$ .
+因此 $\boldsymbol x = \begin{bmatrix} -2r-3s-t-2\\\\ r\\\\ -2s-4t+5\\\\ s\\\\ t \end{bmatrix}$
 
 ### #b
 
@@ -79,13 +79,13 @@ $$
 \boldsymbol a_5x_5 = \boldsymbol b
 \end{equation}
 
-觀察 (2) 式，可使用**特殊值法**解題，令自由變量 \\(r = s = t = 0\\) , 可得到解集中的一組解:
+觀察 (2) 式，可使用**特殊值法**解題，令自由變量 $r = s = t = 0$ , 可得到解集中的一組解:
 
 $$
 \boldsymbol x = \begin{bmatrix}\begin{array}{r} -2\\\\ 0\\\\ 5\\\\ 0\\\\ 0 \end{array}\end{bmatrix}
 $$
 
-將這個解代入 (2) 式，則 \\(x_2, x_4, x_5\\) 三項都被消去，大大節省了運算量. 可得
+將這個解代入 (2) 式，則 $x_2, x_4, x_5$ 三項都被消去，大大節省了運算量. 可得
 
 \begin{equation*}
     \boldsymbol b = 
@@ -97,4 +97,4 @@ $$
 \end{equation*}
 
 # 關聯內容
-如果不採用**特殊值法**的話... 可以直接將解集代入矩陣方程 (2) 中，自由變量 \\(r, s, t\\) 最終都會被消去而得到相同的答案. 但如此一來，最後的步驟就是解一個自變量爲 \\(\boldsymbol a_2, \boldsymbol a_4, \boldsymbol a_5, \boldsymbol b\\) 的 4 元 4 次線性方程組，顯然取特殊值 0 的方法在計算上簡單的多.
+如果不採用**特殊值法**的話... 可以直接將解集代入矩陣方程 (2) 中，自由變量 $r, s, t$ 最終都會被消去而得到相同的答案. 但如此一來，最後的步驟就是解一個自變量爲 $\boldsymbol a_2, \boldsymbol a_4, \boldsymbol a_5, \boldsymbol b$ 的 4 元 4 次線性方程組，顯然取特殊值 0 的方法在計算上簡單的多.

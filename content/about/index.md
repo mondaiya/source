@@ -57,7 +57,7 @@ deactivate Editors
 ```bash
 $ git clone --recursive https://github.com/<your github id>/source
 ```
-其中 --recursive 表示遞迴（遞歸），如果在 fork 之前你的賬戶已經存在名爲 `source` 的項目，則因項目重名 Github 會重命名 source 項目，請注意.  
+其中 `--recursive` 表示遞迴（遞歸），如果在 fork 之前你的賬戶已經存在名爲 `source` 的項目，則因項目重名 Github 會重命名 source 項目，請注意.  
 
 至此你還需要的工具是 [Hugo](https://gohugo.io/) 和一個 Markdown 編輯器(推薦使用 VS Code)，其安裝過程可於網路搜尋，於此不再贅述.
 
