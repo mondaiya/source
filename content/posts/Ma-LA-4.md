@@ -19,7 +19,7 @@ tags: ["數學", "線性代數"]
 \because &A 與 B 是行等價的\\\\\\\\
 \therefore &B &= &E_kE_{k-1} \cdots E_1A \\\\
 \Rightarrow &(E_kE_{k-1} \cdots E_1)^{-1}B &= &(E_kE_{k-1} \cdots E_1)^{-1}E_kE_{k-1} \cdots E_1A\\\\
-\Rightarrow &E_{1}^{-1}E_{2}^{-1}E_{k}^{-1}B &= & A
+\Rightarrow &E_{1}^{-1}E_{2}^{-1} \cdots E_{k}^{-1}B &= & A
 \end{array}
 
 因此 $A = E_{1}^{-1}E_{2}^{-1} \cdots E_{k}^{-1}B$，而 $E^{-1}$ 是 $E$ 同類型的初等矩陣，得證.
