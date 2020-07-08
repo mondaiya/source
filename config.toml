@@ -53,11 +53,16 @@ pygmentscodefencesguesssyntax = true
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 [params.valine]
-  enable = true
-  appId = "oir2hhYBvwGlvC5yMR849hY7-MdYXbMMI"
-  appKey = "7azYofyKNG3m68nrjpffQ9vd"
+  enable = false
+  appId = ""
+  appKey = ""
 # placeholder = " "
   visitor = true
+
+[params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
+  enable = true
+  repo = "mondaiya/mondaiya.github.io"    # The repo to store comments
+  issueTerm = "pathname"
 
 # Your socail's url
 [social]
