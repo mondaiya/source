@@ -1,0 +1,57 @@
+<style>
+    :root {
+        --article-font-family: "Noto Serif SC", var(--base-font-family);
+    }
+
+    body {
+        counter-reset: theorem lemma definition;
+    }
+
+    :lang(zh-hant) .theorem::before {
+        counter-increment: theorem;
+        content: '定理 'counter(theorem) '.\00a0' !important;
+        font-weight: bold;
+        font-family: --base-font-family;
+    }
+
+    :lang(zh-hant) .lemma::before {
+        counter-increment: lemma;
+        content: '引理 'counter(lemma) '.\00a0' !important;
+        font-weight: bold;
+        font-family: --base-font-family;
+    }
+
+    :lang(zh-hant) .proof::before {
+        content: '證明'attr(title) ':\00a0' !important;
+        font-weight: bold;
+        font-family: --base-font-family;
+    }
+
+    :lang(zh-hant) .proof::after {
+        content: '∎';
+        float: right;
+        font-family: --base-font-family;
+    }
+
+    :lang(zh-hant) .definition::before {
+        counter-increment: definition;
+        content: '定義 'counter(definition) '.\00a0' !important;
+        font-weight: bold;
+        font-family: --base-font-family;
+    }
+</style>
+
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });</script>
