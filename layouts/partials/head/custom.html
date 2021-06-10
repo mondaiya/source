@@ -3,20 +3,20 @@
         --article-font-family: "Noto Serif SC", var(--base-font-family);
     }
 
-    body {
-        counter-reset: theorem lemma definition;
+    article {
+        counter-reset: theorems lemmas definitions;
     }
 
     :lang(zh-hant) .theorem::before {
-        counter-increment: theorem;
-        content: '定理 'counter(theorem) '.\00a0' !important;
+        content: '定理 'counter(theorems) '.\00a0' !important;
+        counter-increment: theorems;
         font-weight: bold;
         font-family: --base-font-family;
     }
 
     :lang(zh-hant) .lemma::before {
-        counter-increment: lemma;
-        content: '引理 'counter(lemma) '.\00a0' !important;
+        content: '引理 'counter(lemmas) '.\00a0' !important;
+        counter-increment: lemmas;
         font-weight: bold;
         font-family: --base-font-family;
     }
@@ -34,10 +34,15 @@
     }
 
     :lang(zh-hant) .definition::before {
-        counter-increment: definition;
-        content: '定義 'counter(definition) '.\00a0' !important;
+        content: '定義 'counter(definitions) '.\00a0' !important;
+        counter-increment: definitions;
         font-weight: bold;
         font-family: --base-font-family;
+    }
+
+    /* Recommended. Applies to all SVGs. */
+    .ti {
+        fill: var(--card-text-color-main);
     }
 </style>
 
@@ -55,3 +60,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });</script>
+
+<link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
