@@ -1,5 +1,4 @@
 ---
-author: chychino
 title : Ma LA 1
 date : 2020-07-06
 description : 出典自 Steven J.Leon 著 Linear Algebra with Applications (Ninth Edition) Page.16
