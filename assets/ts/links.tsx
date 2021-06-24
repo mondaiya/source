@@ -7,7 +7,7 @@ interface linkData {
 
 function render(item: linkData) {
     return <article>
-        <a href={item.url}>
+        <a href={item.url} target="_blank" rel="noopener">
             <div class="article-details">
                 <h2 class="article-title" dangerouslySetInnerHTML={{ __html: item.title }}></h2>
                 <footer class="article-time" dangerouslySetInnerHTML={{ __html: item.preview }}></footer>

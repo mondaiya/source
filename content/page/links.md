@@ -9,5 +9,11 @@ menu:
         name: Link
         weight: -10
         pre: link
+links:
+    - 
+        title: "狗冰"
+        url: "http://47.97.250.244/"
+        preview: "狗狗狗"
+
 ---
 

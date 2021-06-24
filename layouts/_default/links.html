@@ -15,11 +15,7 @@
 {{ define "main" }}
     {{ partial "article/article.html" . }}
 
-    <div class="links article-list--compact">
-        {{ range .Pages }}
-            {{ partial "article-list/compact" . }}
-        {{ end }}
-    </div>
+    <div class="links article-list--compact"></div>
 
     {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
         {{ partial "comments/include" . }}
