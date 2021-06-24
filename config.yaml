@@ -34,7 +34,7 @@ params:
 
     sidebar:
         emoji: 🦠
-        subtitle: 非典型人類
+        subtitle: 是穩定裕度很差的非典型人類
         avatar:
             local: true
             src: img/avatar.jpg
