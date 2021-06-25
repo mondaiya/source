@@ -6,6 +6,6 @@ description: "仔細分析多諧振蕩器多種實現下的原理與行為"
 image: pcb.jpg
 ---
 
-# BJT實現
+## BJT實現
 
-# 運放實現
+## 運放實現

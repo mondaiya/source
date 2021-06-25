@@ -1,9 +1,10 @@
 ---
 title: "符號定義"
+description: "鳴鈴文本標準化之二"
 date: 2021-06-09T04:35:29+08:00
 draft: false
 math: true
-categories: ["fish"]
+categories: ["標準化"]
 ---
 $$
 \gdef\uv#1{\hat{\boldsymbol{#1}}}
@@ -32,8 +33,9 @@ $$
 \gdef\sgn{\mathop{\mathrm{sgn}}}
 $$
 
-因爲博客所設分野較廣，所以呢對於符號的使用需要有一定的原則.
-首先，對於標點符號，應采用半角標點。對於公式符號的標準，參考了 ISO、IUPAC、Unicode 和教科書等處的公式后，總結出僅適用於本站的標準。在本站的其他文章當中底公式符號等若無特殊注明之處皆應爲本頁所載之含義。
+本文主要對站內的理工科符號設立標準。因爲博客所設分野較廣，所以呢對於符號的使用需要有一定的原則.
+首先，對於標點符號，應采用半角標點。對於公式符號的標準，參考了 ISO、IUPAC、Unicode 和教科書等處的公式后，總結出僅適用於本站的標準。
+在本站的其他文章當中底公式符號等若無特殊注明之處皆應爲本頁所載之含義。
 
 一般而言，本標準有幾個原則所約束：
 - 變量使用斜體
@@ -43,9 +45,30 @@ $$
 
 ```LaTeX
 $$
-\gdef\uv#1{\hat\boldsymbol{#1}}
+\gdef\uv#1{\hat{\boldsymbol{#1}}}
 \gdef\dif{\mathop{}\\!\mathrm{d}}
-\gdef\ci{\mathrm{i}}
+\gdef\imi{\mathrm{i}}
+\gdef\imj{\mathrm{j}}
+\gdef\elr{\mathrm{e}}
+\gdef\Ft{\mathscr{F}}
+\gdef\Lt{\mathscr{L}}
+\gdef\dB{\mathrm{dB}}
+\gdef\Hz{\mathrm{Hz}}
+\gdef\Ohm{\Omega}
+\gdef\Volt{\mathrm{V}}
+\gdef\Amp{\mathrm{A}}
+\gdef\Wat{\mathrm{W}}
+\gdef\Col{\mathrm{C}}
+\gdef\Far{\mathrm{F}}
+\gdef\Var{\mathrm{Var}}
+\gdef\milli{\mathrm{m}}
+\gdef\micro{\mu}
+\gdef\kilo{\mathrm{k}}
+\gdef\grad{\mathop{\mathrm{grad}}}
+\gdef\dive{\mathop{\mathrm{div}}}
+\gdef\rot{\mathop{\mathrm{rot}}}
+\gdef\perm#1#2{\^#1\\! P_#2}
+\gdef\sgn{\mathop{\mathrm{sgn}}}
 $$
 ```
 ## 通用

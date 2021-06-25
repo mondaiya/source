@@ -1,0 +1,7 @@
+{{ $alt := .Get 0 }}
+{{ $img := .Get 1 }}
+{{ $url := .Get 2 }}
+
+<a href="{{ $url }}" target="_blank" rel="noopener">
+    <img src="{{ safeURL $img }}" alt="{{ $alt }}">
+</a>

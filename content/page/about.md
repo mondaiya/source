@@ -109,11 +109,19 @@ P.S. 雖然說, 在魚的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環境�
 | 《矢量分析与场论》                 | 謝樹藝        | 加深理解電磁學必讀                                                                        |
 
 # 關於本站
+
+
+{{< badge "CI" "https://github.com/mondaiya/source/actions/workflows/main.yml/badge.svg" "https://github.com/mondaiya/mondaiya.github.io" >}}
+{{< badge "made-with-Markdown" "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
+{{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
+
 本站原名問題屋，爲數位化習題集，現爲魚的 weblog，左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
 - blog 程式 [Hugo](https://gohugo.io/)
 - 持續整合 [Github Actions](https://github.com/features/actions)
 - 靜態頁面 [Github Pages](https://pages.github.com/)
 - 留言 [utterances 🔮](https://utteranc.es/)
+
+
 
 ## 格式
 
