@@ -3,7 +3,7 @@ title: "Hugo ❤ Github"
 date: 2021-06-26T18:50:11+08:00
 draft: false
 math: true
-image: github.webp
+image: github.jpg
 ---
 
 ## 緒
