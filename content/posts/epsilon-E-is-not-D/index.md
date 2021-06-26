@@ -3,6 +3,7 @@ title: "𝜀₀𝑬 不是 𝑫"
 date: 2021-06-10T00:39:17+08:00
 draft: false
 math: true
+image: cover.jpg
 categories: ["fish"]
 tags: ["電磁學"]
 ---
