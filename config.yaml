@@ -51,7 +51,7 @@ params:
         provider: utterances
 
         utterances:
-            repo: narisuzu/narisuzu.github.io
+            repo: narisuzu-blog/comments
             issueTerm: pathname
             label: ✨💬✨
 
