@@ -116,12 +116,11 @@ P.S. 雖然說, 在魚的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環境�
 {{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
 
 本站原名問題屋，爲數位化習題集，現爲魚的 weblog，左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
+
 - blog 程式 [Hugo](https://gohugo.io/)
 - 持續整合 [Github Actions](https://github.com/features/actions)
 - 靜態頁面 [Github Pages](https://pages.github.com/)
 - 留言 [utterances 🔮](https://utteranc.es/)
-
-
 
 ## 格式
 
@@ -133,10 +132,11 @@ P.S. 雖然說, 在魚的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環境�
 在每個有內容的頁面底部，您可以登入 {{< ti "brand-github" >}}Github 賬戶以發佈留言，留言支援 {{< ti "markdown">}}Markdown 語法.
 
 ## ~~提交問題~~
-> #### ⚠️ 注意：
+> ### ⚠️ 注意：
 > 
 > 本站已轉爲個人 blog ，且不再支援投稿
 
+{{< details "這裡沒有什麼值得在意的" >}}
 你可以通過 {{< ti "brand-github" >}}Github 的 Pull requests 功能提交新問題.
 
 Pull requests 允許你提交在原作上的改動，例如增加一個文件. 提交問題的序列圖如下：
@@ -233,3 +233,5 @@ $ git push
 之後，修纂組將收到您的申請，將您的 {{< ti "git-pull-request" >}}pull request 驗訖後，修纂組會決定是否 {{< ti "git-merge" >}}Merge 入 Source 主分支中.
 如果拒絕收錄，則說明你的編輯可能存在格式、題目重複、問題錯解等方面的問題. 您將受到相關的通知. 如果成功 {{< ti "git-merge" >}}Merge，您就可以在
 http://mondaiya.github.io/ 內看到您的提交.
+
+{{< /details >}}
