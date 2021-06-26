@@ -110,8 +110,7 @@ P.S. 雖然說, 在魚的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環境�
 
 ## 關於本站
 
-
-{{< badge "CI" "https://github.com/mondaiya/source/actions/workflows/main.yml/badge.svg" "https://github.com/mondaiya/mondaiya.github.io" >}}
+![CI](https://github.com/narisuzu-blog/source/actions/workflows/main.yml/badge.svg)
 {{< badge "made-with-Markdown" "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
 {{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
 
