@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2020-07-06T20:25:49+08:00
+lastmod: 2021-06-27T00:43:00+08:00
 draft: false
 math: true
 comments: false
@@ -15,14 +16,15 @@ menu:
 {{< badge "made-with-Markdown" "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
 {{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
 
-本站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog，左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
+本站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。
+驅動自 Hugo, 左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
 
 - blog 程式 [Hugo](https://gohugo.io/)
 - 持續整合 [Github Actions](https://github.com/features/actions)
 - 靜態頁面 [Github Pages](https://pages.github.com/)
 - 留言 [utterances 🔮](https://utteranc.es/)
 
-關於本站的構建流程，可見於：
+關於本站的構建流程，可見於[此]({{< ref "/posts/hugo-with-all-github" >}})。
 
 ### 格式
 

@@ -147,4 +147,4 @@ $$
 
 則稱該矩陣爲**行最簡形**(reduced row echelon form).
 
-[線性方程組的亞定、超定與相容性](https://telegra.ph/%E7%B7%9A%E6%80%A7%E6%96%B9%E7%A8%8B%E7%B5%84%E7%9A%84%E4%BA%9E%E5%AE%9A%E8%B6%85%E5%AE%9A%E8%88%87%E7%9B%B8%E5%AE%B9%E6%80%A7-07-05)
+也請參見：[小學之上，線代之下]({{< ref "consistency-of-linear-systeme" >}})
