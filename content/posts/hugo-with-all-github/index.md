@@ -5,6 +5,7 @@ draft: false
 math: true
 image: github.jpg
 tags: ["blog", "hugo"]
+icon: true
 ---
 
 ## 緒
