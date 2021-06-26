@@ -7,6 +7,7 @@ categories: ["fish"]
 tags: ["線性代數"]
 math: true
 ---
+## 題目
 
 令
 
@@ -23,7 +24,7 @@ $$
 
 ---
 
-<div class="proof">
+{{< proof >}}
 $\forall n \geq 4$
 $$
 \begin{array}{rlll}
@@ -49,23 +50,21 @@ A^n = A^4 A^{n-4}
     &= &O
 \end{array}
 $$
-
-</div>
+{{< /proof >}}
 
 ---
 
-# 關聯內容
+## 關聯內容
 
-<div class="definition">
+{{< definition >}}
 若 $A=(a_{ij})$ 爲一個 $m \times n$ 的矩陣，且 $B=(b_{ij})$ 爲一個 $n \times r$ 的矩陣，則乘積 $AB = C = (c_{ij})$ 爲一個 $m \times r$ 的矩陣，它的元素定義爲
-
 $$ c_{ij} = \boldsymbol a_i \boldsymbol b_j = \sum_{k=1}^n a_{ik}b_{kj} $$
-</div>
+{{< /definition >}}
 
 
-<div class="theorem">
+{{< theorem >}}
 下述法則對任何標量 $\alpha$ 和 $\beta$ 及矩陣 $A, B$ 和 $C$ 都是成立的.
-
+{{< /theorem >}}
 1. $A + B = B + A$
 2. $(A+B) + C = A + (B+C)$
 3. $(AB)C = A(BC)$
@@ -76,4 +75,4 @@ $$ c_{ij} = \boldsymbol a_i \boldsymbol b_j = \sum_{k=1}^n a_{ik}b_{kj} $$
 8. $(\alpha + \beta)A = \alpha A + \beta A$
 9. $\alpha (A + B) = \alpha A + \alpha B$
 
-</div>
+

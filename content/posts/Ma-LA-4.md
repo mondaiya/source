@@ -14,7 +14,7 @@ tags: ["線性代數"]
 
 ---
 ### 1. 
-<div class="proof">
+{{< proof >}}
 因为 $A$ 與 $B$ 行等價，故
 $$
 B = E_kE_{k-1} \cdots E_1 A
@@ -29,24 +29,22 @@ E_{1}^{-1}E_{2}^{-1} \cdots E_{k}^{-1}&B =&                                     
 $$
 
 因此 $A = E_{1}^{-1}E_{2}^{-1} \cdots E_{k}^{-1}B$，而 $E^{-1}$ 是 $E$ 同類型的初等矩陣.
-
-</div>
+{{< /proof >}}
 
 ### 2. 
-<div class="proof">
+{{< proof >}}
 $$B = E_kE_{k-1} \cdots E_1A \tag{1}$$
 $$C = F_jF_{j-1} \cdots F_1B \tag{2}$$
 $(1)$ 式代入 $(2)$ 式
 $$C = F_jF_{j-1} \cdots F_1E_kE_{k-1} \cdots E_1A 
 $$
 $A$ 經歷有限 ($k+j$) 次行運算得到 $C$，$A$ 與 $C$ 等價.
-
-</div>
+{{< /proof >}}
 
 ---
 
 # 關聯內容
 
-<div class="theorem">
+{{< theorem >}}
 若 $E$ 爲一初等矩陣，則 $E$ 是非奇異的，且 $E^{-1}$ 爲一與其同類型的初等矩陣
-</div>
+{{< /theorem >}}

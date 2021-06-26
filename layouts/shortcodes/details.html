@@ -2,5 +2,5 @@
 
 <details>
     <summary>{{ $summary }}</summary>
-    <p>{{ safeHTML .Inner }}</p>
+    <p>{{ safeHTML .Inner | markdownify }}</p>
 </details>

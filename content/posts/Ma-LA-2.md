@@ -6,6 +6,7 @@ categories: ["fish"]
 tags: ["線性代數"]
 math: true
 ---
+## 題目
 
 設 $A\boldsymbol x = \boldsymbol b$ 是增廣矩陣具有最簡形
 

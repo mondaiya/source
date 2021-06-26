@@ -6,6 +6,7 @@ math: true
 categories: ["fish"]
 tags: ["線性代數"]
 ---
+## 題目
 
 用高斯-若爾當消元法解方程組 :
 
@@ -119,33 +120,31 @@ $$
 > &nbsp; Ⅱ. 以非零實數乘以某行 \
 > &nbsp; Ⅲ. 將某行替換爲它與其他行倍數的和
 
-<div class="definition">
-利用行運算 I、II 和 III 將線性方程組的增廣矩陣化爲行階梯形的過程稱爲<strong>高斯消元法</strong>(Gauss elimination).
-</div>
+{{< definition >}}
+利用行運算 I、II 和 III 將線性方程組的增廣矩陣化爲行階梯形的過程稱爲**高斯消元法**(Gauss elimination).
+{{< /definition >}}
 
-<div class="definition">
-利用基本行運算將矩陣化爲行最簡形的過程稱爲<strong>高斯-若爾當消元法</strong>(Gauss-Jordan elimination).
-</div>
+{{< definition >}}
+利用基本行運算將矩陣化爲行最簡形的過程稱爲**高斯-若爾當消元法**(Gauss-Jordan elimination).
+{{< /definition >}}
 
-<div class="definition">
+{{< definition >}}
 若一個矩陣滿足
+{{< /definition >}}
 
 1. 每一非零行中的首非零元爲 1.
 2. 第 $k$ 行的元不全爲 0 時，第 $k+1$ 行首非零元前零的數量多於第 $k$ 行首非零元前零的數量.
 3. 所有元素均爲零的行必在不全爲零的行之後.
 
-則稱其爲<strong>行階梯形矩陣</strong>(row echelon form).
+則稱其爲**行階梯形矩陣**(row echelon form).
 
-</div>
-
-<div class="definition">
+{{< definition >}}
 若一個矩陣滿足
+{{< /definition >}}
 
 1. 矩陣是行階梯形的.
 2. 每行的首非零元是該列唯一的非零元.
 
-則稱該矩陣爲<strong>行最簡形</strong>(reduced row echelon form).
-
-</div>
+則稱該矩陣爲**行最簡形**(reduced row echelon form).
 
 [線性方程組的亞定、超定與相容性](https://telegra.ph/%E7%B7%9A%E6%80%A7%E6%96%B9%E7%A8%8B%E7%B5%84%E7%9A%84%E4%BA%9E%E5%AE%9A%E8%B6%85%E5%AE%9A%E8%88%87%E7%9B%B8%E5%AE%B9%E6%80%A7-07-05)
