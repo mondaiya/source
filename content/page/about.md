@@ -24,7 +24,7 @@ menu:
 - 靜態頁面 [Github Pages](https://pages.github.com/)
 - 留言 [utterances 🔮](https://utteranc.es/)
 
-關於本站的構建流程，可見於
+關於本站的構建流程，可見於[此]({{< ref "hugo-with-all-github" >}})。
 
 ### 格式
 
