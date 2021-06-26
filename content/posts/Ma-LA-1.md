@@ -147,4 +147,4 @@ $$
 
 則稱該矩陣爲**行最簡形**(reduced row echelon form).
 
-也請參見：[小學之上，線代之下]({{< ref "consistency-of-linear-systeme" >}})
+也請參見：
