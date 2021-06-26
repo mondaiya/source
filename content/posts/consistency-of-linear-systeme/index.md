@@ -3,6 +3,7 @@ title: "小學之上，線代之下"
 date: 2020-06-05T23:38:04+08:00
 draft: false
 math: true
+image: cover.jpg
 description: "不使用線性代數概念對方程、自變量和解集的關係的感性理解"
 ---
 
