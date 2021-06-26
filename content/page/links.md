@@ -1,5 +1,5 @@
 ---
-title: "朋友們"
+title: "朋友"
 date: 2019-05-28
 layout: "links"
 slug: "links"
@@ -9,11 +9,5 @@ menu:
         name: Link
         weight: -10
         pre: link
-links:
-    - 
-        title: "狗冰"
-        url: "http://47.97.250.244/"
-        preview: "狗狗狗"
-
 ---
 
