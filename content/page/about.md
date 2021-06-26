@@ -10,7 +10,7 @@ menu:
         pre: user
         weight: -90
 ---
-# 關於本人
+## 關於本人
 
 魚自號「鳴鈴」，Rustacan與Gopher，目前啃老中係無業遊民，無知且無能。  
 ❓爲何號「鳴鈴」：自古人們鳴鐘以警醒，但魚無能爲鐘，只求爲鈴。
@@ -108,7 +108,7 @@ P.S. 雖然說, 在魚的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環境�
 | *Thomas' Calculus*                 | 喬治·B·托馬斯 | 作爲高等數學補充讀本（加深理解）                                                          |
 | 《矢量分析与场论》                 | 謝樹藝        | 加深理解電磁學必讀                                                                        |
 
-# 關於本站
+## 關於本站
 
 
 {{< badge "CI" "https://github.com/mondaiya/source/actions/workflows/main.yml/badge.svg" "https://github.com/mondaiya/mondaiya.github.io" >}}
