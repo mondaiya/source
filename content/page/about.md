@@ -10,6 +10,32 @@ menu:
         pre: user
         weight: -90
 ---
+## 關於敝站
+
+![CI](https://github.com/narisuzu-blog/source/actions/workflows/main.yml/badge.svg)
+{{< badge "made-with-Markdown" "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
+{{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
+
+本站原名問題屋，爲數位化習題集，現爲魚的 weblog，左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
+
+- blog 程式 [Hugo](https://gohugo.io/)
+- 持續整合 [Github Actions](https://github.com/features/actions)
+- 靜態頁面 [Github Pages](https://pages.github.com/)
+- 留言 [utterances 🔮](https://utteranc.es/)
+
+關於本站的構建流程，可見於：
+
+### 格式
+
+本站使用十分高效的 [$\KaTeX$](https://katex.org/) 作爲 $\LaTeX$ 公式渲染器.
+中文排版基本按照[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)的規範進行.
+
+關於敝站的格式標準化，可見於：
+
+### 留言
+
+在每個有內容的頁面底部，您可以登入 {{< ti "brand-github" >}}Github 賬戶以發佈留言，留言支援 {{< ti "markdown">}}Markdown 語法.
+
 ## 關於本人
 
 魚自號「鳴鈴」，Rustacan與Gopher，目前啃老中係無業遊民，無知且無能。  
@@ -107,25 +133,3 @@ P.S. 雖然說, 在魚的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環境�
 | *Linear Algebra with Applications* | Steven J.Leon | 替換同濟版作爲線性代數教材，該書按照線性代數的應用實例步步詳解，銜接緊密，小學生🐻也能讀懂 |
 | *Thomas' Calculus*                 | 喬治·B·托馬斯 | 作爲高等數學補充讀本（加深理解）                                                          |
 | 《矢量分析与场论》                 | 謝樹藝        | 加深理解電磁學必讀                                                                        |
-
-## 關於本站
-
-![CI](https://github.com/narisuzu-blog/source/actions/workflows/main.yml/badge.svg)
-{{< badge "made-with-Markdown" "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
-{{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
-
-本站原名問題屋，爲數位化習題集，現爲魚的 weblog，左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
-
-- blog 程式 [Hugo](https://gohugo.io/)
-- 持續整合 [Github Actions](https://github.com/features/actions)
-- 靜態頁面 [Github Pages](https://pages.github.com/)
-- 留言 [utterances 🔮](https://utteranc.es/)
-
-## 格式
-
-本站使用十分高效的 [$\KaTeX$](https://katex.org/) 作爲 $\LaTeX$ 公式渲染器.
-中文排版基本按照[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)的規範進行.
-
-## 留言
-
-在每個有內容的頁面底部，您可以登入 {{< ti "brand-github" >}}Github 賬戶以發佈留言，留言支援 {{< ti "markdown">}}Markdown 語法.
