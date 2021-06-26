@@ -1,4 +1,4 @@
-baseurl: https://mondaiya.github.io
+baseurl: https://narisuzu.github.io
 languageCode: zh-hant
 theme: stack
 paginate: 5
@@ -51,7 +51,7 @@ params:
         provider: utterances
 
         utterances:
-            repo: mondaiya/mondaiya.github.io
+            repo: narisuzu/narisuzu.github.io
             issueTerm: pathname
             label: ✨💬✨
 
