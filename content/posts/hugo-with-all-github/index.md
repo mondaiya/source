@@ -4,6 +4,7 @@ date: 2021-06-26T18:50:11+08:00
 draft: false
 math: true
 image: github.jpg
+tags: ["blog", "hugo"]
 ---
 
 ## 緒
