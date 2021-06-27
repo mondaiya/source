@@ -1,0 +1,39 @@
+{{ if .IsPage }}
+{{ $eye := partial "helper/icon" "eye" }}
+{{ $namespace := .Site.GoogleAnalytics }}
+{{ $key := printf "%s.%s" .Hugo.Environment .File.UniqueID }}
+<script>
+    (() => {
+        const footer = document.getElementsByClassName("article-footer")[0];
+        if (!footer) {
+            console.log("no available footer was found!");
+            return;
+        }
+        console.log("get views!");
+
+        const counterId = "visitor-counter"
+        const counter = document.createElement('span');
+        counter.id = counterId
+        counter.className = "pageViews"
+
+        const viewsText = document.createElement('span');
+        viewsText.innerHTML = "views"
+
+        const sec = document.createElement('section')
+        sec.className = "article-copyright article-views"
+        sec.innerHTML = "{{ $eye }}"
+        sec.appendChild(counter);
+        sec.appendChild(viewsText);
+
+        footer.appendChild(sec);
+
+        const vcele = document.getElementById(counterId);
+        const url = "https://api.countapi.xyz/hit/{{ $namespace }}/{{ $key }}"
+        fetch(url)
+            .then(data => data.json())
+            .then(res => {
+                vcele.innerHTML = res.value;
+            });
+    })();
+</script>
+{{ end }}

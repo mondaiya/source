@@ -14,7 +14,7 @@ menu:
 ---
 ## 關於敝站
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=narisuzu.github.io)
+![visitors](https://img.shields.io/badge/give-{{ok}}-%3CCOLOR%3E.svg)
 {{< badge "made-with-Markdown" "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
 {{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
 
