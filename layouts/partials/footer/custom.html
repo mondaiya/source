@@ -1,9 +1,16 @@
+{{ $namespace := .Site.GoogleAnalytics }}
+
 {{ if .IsPage }}
 {{ $eye := partial "helper/icon" "eye" }}
-{{ $namespace := .Site.GoogleAnalytics }}
-{{ $key := printf "%s.%s" .Hugo.Environment .File.UniqueID }}
+{{ $key := printf "%s.page.%s" .Hugo.Environment .File.UniqueID }}
 {{ $params := dict "icon" $eye "namespace" $namespace "key" $key }}
-{{ $opts := dict "minify" hugo.IsProduction "params" $params }}
-{{ $searchScript := resources.Get "ts/views.ts" | js.Build $opts }}
-<script type="text/javascript" src="{{ $searchScript.RelPermalink }}"></script>
+{{ $opts := dict "minify" hugo.IsProduction "params" $params "JSXFactory" "createElement" }}
+{{ $scr := resources.Get "ts/pageViews.tsx" | js.Build $opts }}
+<script type="text/javascript" src="{{ $scr.RelPermalink }}" defer></script>
 {{ end }}
+
+{{ $key := printf "%s.%s" .Hugo.Environment "total" }}
+{{ $params := dict "namespace" $namespace "key" $key }}
+{{ $opts := dict "minify" hugo.IsProduction "params" $params "JSXFactory" "createElement" }}
+{{ $scr := resources.Get "ts/totalViews.tsx" | js.Build $opts }}
+<script type="text/javascript" src="{{ $scr.RelPermalink }}" defer></script>
