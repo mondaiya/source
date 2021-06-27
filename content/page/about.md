@@ -14,9 +14,9 @@ menu:
 ---
 ## 關於敝站
 
-![visitors](https://img.shields.io/badge/give-{{ok}}-%3CCOLOR%3E.svg)
-{{< badge "made-with-Markdown" "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
-{{< badge "made-with-latex" "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
+{{< badge "https://github.com/narisuzu-blog/source/actions/workflows/main.yml/badge.svg" "https://github.com/narisuzu-blog/source/actions/workflows/main.yml" >}}
+{{< badge "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
+{{< badge "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
 
 本站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。
 驅動自 Hugo, 左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
