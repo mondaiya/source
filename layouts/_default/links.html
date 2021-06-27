@@ -5,17 +5,17 @@
 {{ end }}
 
 {{ define "container-class" }}
-    {{ if (.Scratch.Get "hasTOC") }}
-        extended
-    {{ else }}
-        on-phone--column {{ if .Site.Params.widgets.enabled }}extended{{ else }}compact{{ end }}
-    {{ end }}
+    on-phone--column {{ if .Site.Params.widgets.enabled }}extended{{ else }}compact{{ end }}
 {{ end }}
 
 {{ define "main" }}
     {{ partial "article/article.html" . }}
 
-    <div class="links article-list--compact"></div>
+    <div class="links article-list--compact">
+        {{ range .Site.Data.links}}
+            {{ partialCached "links/default" . }}
+        {{ end }}
+    </div>
 
     {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
         {{ partial "comments/include" . }}

@@ -1,6 +1,6 @@
 {{ $namespace := .Site.GoogleAnalytics }}
 
-{{ if .IsPage }}
+{{ if and (.IsPage) (default true .Params.views) }}
 {{ $eye := partial "helper/icon" "eye" }}
 {{ $key := printf "%s.page.%s" .Hugo.Environment .File.UniqueID }}
 {{ $params := dict "icon" $eye "namespace" $namespace "key" $key }}
