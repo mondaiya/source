@@ -4,6 +4,8 @@ date: 2021-06-12T11:02:02+08:00
 image: Isekai_Shokudo_Vol1.jpg
 draft: false
 math: true
+categories: ["thinking"]
+tag: ["ACGN", "IT"]
 ---
 ## 破題
 

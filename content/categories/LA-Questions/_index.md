@@ -1,7 +1,7 @@
 ---
-title: "魚魚"
-description: "你會用 LaTeX 畫魚嗎？"
-slug: "fish"
+title: "線性代數題解"
+description: "關於線性代數的題目於解答"
+slug: "la-questions"
 image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
 style:
     background: "#2a9d8f"

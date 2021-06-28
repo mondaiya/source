@@ -3,6 +3,7 @@ title: "電路符號定義"
 date: 2021-06-25T10:40:47+08:00
 description: "鳴鈴文本標準化之三"
 draft: true
+categories: ["standard"]
 ---
 
 ## 通用

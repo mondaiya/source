@@ -4,6 +4,7 @@ date: 2021-06-12T13:23:10+08:00
 draft: false
 image: cover.jpg
 mermaid: true
+categories: ["nihongo"]
 ---
 
 衆所周知的，日語中的主語常常隱藏因此會產生一系列難解的問題。本文所描述的就是授受動詞動詞接續授受動詞的行爲。

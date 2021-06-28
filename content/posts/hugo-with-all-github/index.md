@@ -4,6 +4,7 @@ date: 2021-06-26T18:50:11+08:00
 draft: false
 math: true
 image: github.jpg
+categories: ["log"]
 tags: ["blog", "hugo"]
 icon: true
 ---
@@ -246,13 +247,13 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 
 ### `draft: true` 帶來的問題
 
-草稿貼文是不會被編譯的，因此要注意使用站內引用 `{{</* ref */>}}` 時，不要引用草稿貼文。
+℞：草稿貼文是不會被編譯的，因此要注意使用站內引用 `{{</* ref */>}}` 時，不要引用草稿貼文。
 
 P.s. 鳴鈴被此問題困擾了好久的說 ，`hugo server -D` 正常但 `hugo` 就報錯 (・–・;)ゞ
 
 ### webp 錯誤
 
-目前 Hugo 還不支援 webp 圖像，如果遇到 webp 的錯誤就換成 png/jpeg 吧. 
+℞：目前 Hugo 還不支援 webp 圖像，如果遇到 webp 的錯誤就換成 png/jpeg 吧. 
 
 ## 總結
 哼哼，能夠完全基於免費的服務新建可靠，功能完備的 blog 還是滿有成就感的. 

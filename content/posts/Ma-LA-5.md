@@ -3,7 +3,7 @@ title: "Ma LA 5"
 date: 2020-07-09T09:53:26+08:00
 draft: false
 description : 出典自 Steven J.Leon 著 Linear Algebra with Applications (Ninth Edition) Page.53
-categories: ["fish"]
+categories: ["LA-Questions"]
 tags: ["線性代數"]
 math: true
 ---

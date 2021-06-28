@@ -3,7 +3,7 @@ title: "Ma LA 4"
 date: 2020-07-08T16:47:15+08:00
 draft: false
 math: true
-categories: ["fish"]
+categories: ["LA-Questions"]
 tags: ["線性代數"]
 ---
 

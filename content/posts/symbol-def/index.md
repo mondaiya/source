@@ -4,7 +4,7 @@ description: "鳴鈴文本標準化之二"
 date: 2021-06-09T04:35:29+08:00
 draft: false
 math: true
-categories: ["標準化"]
+categories: ["standard"]
 ---
 $$
 \gdef\uv#1{\hat{\boldsymbol{#1}}}
