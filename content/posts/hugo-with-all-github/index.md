@@ -117,7 +117,7 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 在 Secrets 中添加變量 `ACTIONS_DEPLOY_KEY`，其值爲**私鑰**. 
 
 設定完成後，主體功能就配置完成了，這時將源碼 Push 後，如果沒有錯誤的話就能在 [Github ID].github.io 中看到你的博客了. 
-可喜可賀可喜可賀！
+パチパチパチなのです！
 
 ## 留言
 
