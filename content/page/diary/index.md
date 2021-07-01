@@ -2,8 +2,8 @@
 title: "雜記"
 draft: false
 slug: diary
-date: "2021-06-28"
-lastmod: "2021-07-01"
+date: 2021-06-28
+lastmod: 2021-07-01
 math: true
 license: false
 menu:
