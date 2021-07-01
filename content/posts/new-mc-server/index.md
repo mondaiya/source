@@ -2,7 +2,9 @@
 title: "MC:JE 鯖策劃案（更新中...）"
 date: 2021-07-01T16:59:16+08:00
 lastmod: 2021-07-01T16:59:16+08:00
-draft: true
+draft: false
+image: cover.png
+tags: ["Minecraft"]
 ---
 
 列位！諸君！鳴鈴最近和朋友在策劃一個伺服器，落成後歡迎來玩！
