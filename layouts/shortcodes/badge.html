@@ -2,5 +2,5 @@
 {{ $url := .Get 1 }}
 
 <a href="{{ $url }}" target="_blank" rel="noopener">
-    <img src="{{ safeURL $img }}" alt="badge">
+    <img src="{{ safeURL $img }}" alt="badge" loading="lazy">
 </a>
