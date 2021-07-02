@@ -7,15 +7,28 @@ image: cover.png
 tags: ["Minecraft"]
 ---
 
-列位！諸君！鳴鈴最近和朋友在策劃一個伺服器，落成後歡迎來玩！
+列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！
 
-好啦，不開玩笑了。該伺服器名稱未定，但其應有以下特徵：
+## 綱要
+
+該伺服器名稱未定，但其應有以下特徵：
 
 - 私有：不向陌生人開發
 - 在線：Online Mode
 - 香草：保留 Vanilla 風格地 Modded
 - 沉浸：Mod 以增強遊戲效能與機能爲要
 - 求新：在已有 Mod 兼容的前提下，使用最新版本的 Minecraft.
+
+爲什麼要私有呢，因爲大家都有自己的正業，所以希望儘量降低管理成本。
+因此若汝想一起來玩的話，需要接受適應性審查。或者由一名或以上的本服玩家擔保，邀請汝加入我們。
+
+爲了避免任何潛在的{{< omit >}}政治{{< /omit >}}風險，Online Mode 是必要的，因爲 Online Mode 下的聊天信息（包括其他的數據包）是經加密的[^1]。
+如此可以增加對話被監聽的難度。同時所有的聊天記錄將不會被保留。
+在今後，或許會自己開發 Mod 將文字聊天與語音聊天功能轉移至獨立伺服器上，並增強加密算法。
+
+[^1]: https://wiki.vg/Protocol_Encryption
+
+## Mod 列表
 
 以上列諸項爲綱，選取以下 Mod。按：下表中若「連接」一排中的 badge 沒有渲染出來，可以多等一下或者刷新頁面 )
 
@@ -43,7 +56,7 @@ tags: ["Minecraft"]
  | Simple Voice Chat     | `Both Side` `UI功能`               |     {{< badge "https://cf.way2muchnoise.eu/versions/mumble-link-fabric_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/mumble-link-fabric" >}}     | 瓶頸時考慮替換 mumblelink |
  | Smooth Boot           | `Client Only` `效能`               |            {{< badge "https://cf.way2muchnoise.eu/versions/smooth-boot_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/smooth-boot" >}}            | CPU 優化                  |
  | Spark                 | `Both Side` `效能`                 |                  {{< badge "https://cf.way2muchnoise.eu/versions/spark_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/spark" >}}                  | RAM 優化                  |
- | Physics Mod           | `UI功能`                           |            {{< badge "https://cf.way2muchnoise.eu/versions/physics-mod_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/physics-mod" >}}            | 添加物理效果              | outdated               |
+ | Physics Mod           | `UI功能`                           |            {{< badge "https://cf.way2muchnoise.eu/versions/physics-mod_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/physics-mod" >}}            | 添加物理效果              |                        |
  | Dropz                 | `UI功能`                           |                  {{< badge "https://cf.way2muchnoise.eu/versions/dropz_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/dropz" >}}                  | 掉落物效果                | outdated               |
  | Fluid Physics         | `Server Only` `遊玩優化`           |          {{< badge "https://cf.way2muchnoise.eu/versions/fluid-physics_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/fluid-physics" >}}          | 流體物理                  | will crash             |
  | Fabric Seasons        | `裝飾` `遊玩優化`                  |             {{< badge "https://cf.way2muchnoise.eu/versions/413523_latest.svg" "https://www.curseforge.com/minecraft/mc-mods/fabric-seasons" >}}             | 加入季節變化              |
