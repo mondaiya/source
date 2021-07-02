@@ -18,7 +18,7 @@ menu:
 {{< badge "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
 {{< badge "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
 
-本站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。
+敝站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。
 驅動自 Hugo, 左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
 
 - blog 程式 [Hugo](https://gohugo.io/)
@@ -26,11 +26,11 @@ menu:
 - 靜態頁面 [Github Pages](https://pages.github.com/)
 - 留言 [utterances 🔮](https://utteranc.es/)
 
-關於本站的構建流程，可見於[此]({{< ref "hugo-with-all-github" >}})。
+關於敝站的構建流程，可見於[此]({{< ref "hugo-with-all-github" >}})。
 
 ### 格式
 
-本站使用十分高效的 [$\KaTeX$](https://katex.org/) 作爲 $\LaTeX$ 公式渲染器.
+敝站使用十分高效的 [$\KaTeX$](https://katex.org/) 作爲 $\LaTeX$ 公式渲染器.
 中文排版基本按照[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)的規範進行.
 
 關於敝站的格式標準化，可見於：
@@ -38,6 +38,20 @@ menu:
 ### 留言
 
 在每個有內容的頁面底部，您可以登入 {{< ti "brand-github" >}}Github 賬戶以發佈留言，留言支援 {{< ti "markdown">}}Markdown 語法.
+
+### 著作權
+
+鳴鈴尊重創作者與著作權，敝站所有第三方資源均在共有領域內、或以著作權許可的方式使用。
+
+敝站除額外標註版權信息外，含下列內容之一者，許可協議均爲[姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)：
+
+- 引用內容（引號與引用塊的內容）之外的文本內容（包含公式的 $\LaTeX$ 源碼）
+- 使用 $\text{Ti}k\text{Z}$ 生成的圖示及其源碼
+- 使用 mermaid 生成的圖示及其源碼
+- 敝站的標準化方案
+- 代碼塊中的代碼
+
+當然，縱使你沒有盡責遵守協議，鳴鈴也不會說什麼。
 
 ## 關於本人
 

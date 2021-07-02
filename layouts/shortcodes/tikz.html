@@ -1,3 +1,14 @@
 {{ $title := .Get 0 }}
 {{ $width := default "auto" (.Get 1) }}
-<img src="https://raw.githubusercontent.com/narisuzu-blog/tikz-diagrams/master/out/{{$title}}.svg" width="{{$width}}" loading="lazy">
+<figure>
+    <img class="tikz-img" src="https://raw.githubusercontent.com/narisuzu-blog/tikz-diagrams/master/out/{{$title}}.svg"
+        width="{{$width}}" loading="lazy">
+    <figcaption>{{ safeHTML .Inner }}</figcaption>
+</figure>
+<style>
+    .tikz-img {
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+    }
+</style>
