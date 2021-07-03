@@ -40,7 +40,7 @@ tags: ["Minecraft"]
  | [Better Third Person](https://www.curseforge.com/minecraft/mc-mods/better-third-person)     | `CO` `UI`      | 第三人稱視角優化                              |                           |
  | [bits and chisels](https://www.curseforge.com/minecraft/mc-mods/bits-and-chisels)           | `DE`           | 方塊雕刻                                      |                           |
  | [Canvas](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer)                      | `CO` `UI` `PE` | 光影依賴模組                                  |                           |
- | [Charm](https://www.curseforge.com/minecraft/mc-mods/charm)                                 | `BS` `DE`      | 更多風格                                      |                           |
+ | [Charm](https://www.curseforge.com/minecraft/mc-mods/charm)                                 | `BS` `DE`      | 更多風格的物品                                |                           |
  | [Charmonium](https://www.curseforge.com/minecraft/mc-mods/charmonium)                       | `BS` `UI`      | 添加 BGM                                      |                           |
  | [Dark Paintings](https://www.curseforge.com/minecraft/mc-mods/dark-paintings)               | `DE`           | 增加一些畫作                                  |                           |
  | [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling)                | `CO` `PE`      | 實體渲染優化                                  |                           |
@@ -49,7 +49,7 @@ tags: ["Minecraft"]
  | [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric)              | `BS` `PE`      | better memory performance                     |                           |
  | [First-person Model](https://www.curseforge.com/minecraft/mc-mods/first-person-model)       | `CO` `DE`      | 添加第一人稱視角優化                          |                           |
  | [Grim's Transportables](https://www.curseforge.com/minecraft/mc-mods/grims-transportables)  | `BS` `DE`      | 中世紀馬車                                    |                           |
- | [Immersive Portals](https://www.curseforge.com/minecraft/mc-mods/immersive-portals-mod)     | `DE`           | 好看的傳送門                                  |                           |
+ | [Immersive Portals](https://www.curseforge.com/minecraft/mc-mods/immersive-portals-mod)     | `DE`           | 好看的傳送門                                  | Conflicting with Canvas   |
  | [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)                             | `SO` `PE`      | 優化 game physics, mob AI, block ticking, etc |                           |
  | [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu)                            | `CO` `UI`      | 遊戲內管理 Mod                                |                           |
  | [Not Enough Animations](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) | `CO` `DE`      | 增加動作動畫                                  |                           |
