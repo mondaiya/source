@@ -58,12 +58,13 @@ menu:
 自號「鳴鈴」，Rustacan與Gopher，目前啃老中係無業遊民，無知且無能。  
 ❓爲何號「鳴鈴」：自古人們鳴鐘以警醒，但我無能爲鐘，只求爲鈴。
 
-### 技術標籤
+### 技能標籤
 `🦀Rust` `🦫Go` `☕Java` `{{< ti "brand-kotlin" >}}Kotlin` `🌕Lua`  
 `{{< ti "brand-html5" >}}HTML` `{{< ti "brand-css3" >}}CSS` `{{< ti "brand-javascript" >}}JavaScript` `TypeScript` `⚛️React.js`  
 `SQL` `🥭MongoDB` `🧱Redis`  
 `📟STM32 HAL` `Siemens PLC` `LaTeX` `{{< ti "brand-google" >}}gRPC` `{{< ti "brand-facebook" >}}GraphQL`  
-`{{< ti "atom" >}}Electron` `{{< ti "git-merge" >}}git` `🪶Maven` `🐘Gradle`
+`{{< ti "atom" >}}Electron` `{{< ti "git-merge" >}}git` `🪶Maven` `🐘Gradle`  
+`官話(zh-Hant)` `日本語(ja)` `English(en-US)`
 
 ### ~~信仰~~ 環境
 `🚪ArchLinux` `AwesomeWM` `♾️Visual Studio Code` `JetBrains` `⛏️Minecraft` `ㄓRIME`  
@@ -153,7 +154,7 @@ P.S. 雖然說, 在鳴鈴的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環�
 
 ### ~~FAQ~~Q&A
 Q：你是哪裏的人？爲什麼要用繁體字？  
-A：鳴鈴**目前**仍是中國人，用什麼字體全憑喜好。鳴鈴要用小篆的話讀者也不懂。
+A：鳴鈴**目前**的法律身份仍是中國人，用什麼字體全憑喜好。鳴鈴要用小篆的話讀者也不懂。
 
 Q：爲什麼不用中華民國教育部規定的正體字？  
 A：因爲不合理，比如「表」字爲上下結構，理應對「裏」而非「裡」。
