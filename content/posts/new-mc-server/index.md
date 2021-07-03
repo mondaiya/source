@@ -59,6 +59,7 @@ tags: ["Minecraft"]
  | [Smooth Boot](https://www.curseforge.com/minecraft/mc-mods/smooth-boot)                     | `CO` `PE`      | CPU 優化                                      |                           |
  | [Spark](https://www.curseforge.com/minecraft/mc-mods/spark)                                 | `BS` `PE`      | RAM 優化                                      |                           |
  | [Physics Mod](https://www.curseforge.com/minecraft/mc-mods/physics-mod)                     | `UI`           | 添加物理效果                                  |                           |
+ | [Presence Footsteps](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps)       | `DE`           | 腳步聲優化                                    |                           |
  | [Dropz](https://www.curseforge.com/minecraft/mc-mods/dropz)                                 | `UI`           | 落體物理                                      | **Outdated**              |
  | [Fluid Physics](https://www.curseforge.com/minecraft/mc-mods/fluid-physics)                 | `SO` `FN`      | 流體物理                                      | **Will Crash**            |
  | [Fabric Seasons](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons)               | `DE` `FN`      | 加入季節變化                                  |                           |
