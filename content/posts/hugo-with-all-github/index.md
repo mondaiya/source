@@ -9,7 +9,7 @@ tags: ["blog", "hugo"]
 icon: true
 ---
 
-## 緒
+## 序
 
 鳴鈴曾經建過的 blog 也不少，用過 [WordPress](https://www.wordpress.com), [Typecho](https://typecho.org) 等基於 {{< fa "fab" "php" >}}PHP 的 blog 軟體，最近也用過 [Hexo](https://hexo.io) 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 [Hugo](https://gohugo.io/). 
 爲了省錢，敝站完全使用 {{< ti "brand-github" >}}Github 來構建，因此對於落魄的鳴鈴來講十分合適 (

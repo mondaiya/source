@@ -1,15 +1,13 @@
 {{ $title := .Get 0 }}
 {{ $width := .Get 1 }}
-{{ with .Inner }}
 <figure>
-    {{ with $width }}
-        <img class="tikz-img" src="https://raw.githubusercontent.com/narisuzu-blog/tikz-diagrams/master/out/{{$title}}.svg"
-            width="{{.}}" loading="lazy">
-    {{ else }}
-        <img class="tikz-img" src="https://raw.githubusercontent.com/narisuzu-blog/tikz-diagrams/master/out/{{$title}}.svg" loading="lazy">
-    {{ end }}
+    <img class="tikz-img" src="https://raw.githubusercontent.com/narisuzu-blog/tikz-diagrams/master/out/{{$title}}.svg"
+        loading="lazy" {{with $width}}style="max-width: {{.}};" {{end}}>
+    {{ with .Inner }}
     <figcaption>{{ safeHTML . }}</figcaption>
+    {{ end }}
 </figure>
+
 <style>
     .tikz-img {
         text-align: center;
@@ -17,7 +15,3 @@
         margin: 20px auto;
     }
 </style>
-{{ else }}
-<img class="tikz-img" src="https://raw.githubusercontent.com/narisuzu-blog/tikz-diagrams/master/out/{{$title}}.svg"
-    width="{{$width}}" loading="lazy">
-{{ end }}

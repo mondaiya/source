@@ -1,4 +1,3 @@
 <!--layouts/shortcodes/svg.html-->
-<script type="text/tikz">
-{{ .Inner }}
-</script>
+{{$svg := .Get 0}}
+{{ $svg | readFile | safeHTML }}
