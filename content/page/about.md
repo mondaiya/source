@@ -5,6 +5,7 @@ lastmod: 2021-06-27T00:43:00+08:00
 draft: false
 math: true
 icon: true
+toc: false
 comments: false
 menu: 
     main:
