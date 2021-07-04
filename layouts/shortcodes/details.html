@@ -6,7 +6,7 @@
     <summary>
         {{- $summary | markdownify -}}
     </summary>
-    <p>{{ safeHTML .Inner | markdownify }}</p>
+    <p>{{- safeHTML .Inner | markdownify -}}</p>
 </details>
 
 {{ if not $mark }}
