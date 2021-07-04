@@ -98,6 +98,7 @@ jobs:
           external_repository: narisuzu/narisuzu.github.io # 部署至何 repo
           publish_branch: main  # 部署至何 branch
           publish_dir: ./public
+          cname: blog.ling.moe # 客製化域名的 CNAME 記錄
 ```
 
 在這裏，因爲我們將 Github Pages 和源碼分置於不同的 repo ，因此用到了 `external_repository: ` 以指定將編譯結果輸出至應用 Github Pages 的 repo。
