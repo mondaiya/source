@@ -1,17 +1,25 @@
 {{ $title := .Get 0 }}
 {{ $desktopWidth := .Get 1 }}
 {{ $mobileWidth := .Get 2 }}
-<figure>
+<figure class="tikz-wrapper">
     <img class="tikz-img" src="{{.Site.Params.imgBase}}{{$title}}.svg" loading="lazy">
     {{ with .Inner }}
-    <figcaption>{{ safeHTML . }}</figcaption>
+    <figcaption class="tikz-capt">{{ safeHTML . }}</figcaption>
     {{ end }}
 </figure>
 
 <style>
+    .tikz-wrapper{
+        padding: 0 20px;
+    }
+
     .tikz-img {
-        display: table-cell; 
-        margin: 20px;
+        display: block; 
+        margin: auto;
+    }
+
+    .tikz-capt {
+        margin-top: 10px;
     }
 </style>
 
