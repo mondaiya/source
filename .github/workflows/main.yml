@@ -39,3 +39,4 @@ jobs:
           external_repository: narisuzu/narisuzu.github.io
           publish_branch: main
           publish_dir: ./public
+          cname: blog.ling.moe
