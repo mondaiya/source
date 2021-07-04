@@ -1,8 +1,8 @@
 {{ $title := .Get 0 }}
-{{ $width := .Get 1 }}
+{{ $desktopWidth := .Get 1 }}
+{{ $mobileWidth := .Get 2 }}
 <figure>
-    <img class="tikz-img" src="https://raw.githubusercontent.com/narisuzu-blog/tikz-diagrams/master/out/{{$title}}.svg"
-        loading="lazy" {{with $width}}style="max-width: {{.}};" {{end}}>
+    <img class="tikz-img" src="{{.Site.Params.imgBase}}{{$title}}.svg" loading="lazy">
     {{ with .Inner }}
     <figcaption>{{ safeHTML . }}</figcaption>
     {{ end }}
@@ -10,8 +10,29 @@
 
 <style>
     .tikz-img {
-        text-align: center;
-        display: block;
-        margin: 20px auto;
+        display: table-cell; 
+        margin: 20px;
     }
 </style>
+
+<!-- 桌面設備寬度 -->
+{{ with $desktopWidth }}
+<style>
+    @media screen and (min-width: 680px) {
+        .tikz-img {
+            width: {{.}};
+        }
+    }
+</style>
+{{ end }}
+
+<!-- 移動設備寬度 -->
+{{ with $mobileWidth }}
+<style>
+    @media screen and (max-width: 680px) {
+        .tikz-img {
+            width: {{.}};
+        }
+    }
+</style>
+{{ end }}
