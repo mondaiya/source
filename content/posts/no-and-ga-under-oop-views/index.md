@@ -1,7 +1,7 @@
 ---
 title: "以OOP的視角看が和の"
 date: 2021-07-05T12:59:56+08:00
-draft: true
+draft: false
 categories: ["thinking", "nihongo"]
 image: cover.jpg
 ---
