@@ -24,7 +24,7 @@ params:
         - posts
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: https://narisuzu-blog.github.io/tikz-diagrams/public/ico/favicon.ico
 
     footer:
         since: 2021
@@ -95,7 +95,7 @@ params:
         content:
             enabled: true
 
-    imgBase: "https://narisuzu-blog.github.io/tikz-diagrams/out/"
+    imgBase: "https://narisuzu-blog.github.io/tikz-diagrams/public/tikz/"
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu
